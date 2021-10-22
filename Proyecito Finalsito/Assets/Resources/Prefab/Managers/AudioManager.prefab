@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4190178954158871947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4190178954158871944}
+  - component: {fileID: 4190178954158871945}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4190178954158871944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4190178954158871947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6, y: 50.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4190178954158871945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4190178954158871947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c86c10b101e046458aa5b77fcfb2c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEntities:
+  - name: Player
+    soundCategories:
+    - name: Auch
+      sounds:
+      - name: Auch1
+        clip: {fileID: 8300000, guid: 80fefcc5444b458439b7aba6762b9ba6, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Auch2
+        clip: {fileID: 8300000, guid: 40ba27c39fa53a844be20a0a2a7a2900, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Auch3
+        clip: {fileID: 8300000, guid: dcc2b2bcdfc330d4199a1c610a845c26, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 1
+      mixer: {fileID: 2987559781006682313, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+    - name: DisolveEffect
+      sounds:
+      - name: Disolve1
+        clip: {fileID: 8300000, guid: c989003d251fed94186ae6f8185ea030, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Disolve2
+        clip: {fileID: 8300000, guid: 774e473a3bd99574f949623d0abb2683, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Disolve3
+        clip: {fileID: 8300000, guid: 476dfb6a2d358ac43916d07b3d4b2f69, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 1
+      mixer: {fileID: 2987559781006682313, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+    - name: Hit
+      sounds:
+      - name: Hit1
+        clip: {fileID: 8300000, guid: 3ef75baf1211f964486aafb7471a6bfc, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Hit2
+        clip: {fileID: 8300000, guid: 280dce5e50289e446a8e9cf44cd29427, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 1
+      mixer: {fileID: 2987559781006682313, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+    - name: Push
+      sounds:
+      - name: PushSound1
+        clip: {fileID: 8300000, guid: 146683343dee59241a9218582f551f1e, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: 2987559781006682313, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+    - name: Spawn
+      sounds:
+      - name: SpawnSound1
+        clip: {fileID: 8300000, guid: 88acf9639c1a537499005e83832191e0, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 1
+      mixer: {fileID: 2987559781006682313, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+    - name: Vocal
+      sounds:
+      - name: Vocal1
+        clip: {fileID: 8300000, guid: 88128ea186feed0409851d4b09ba2f76, type: 3}
+        volume: 0.5
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Vocal2
+        clip: {fileID: 8300000, guid: e554b82cc02428149acb7000624c652a, type: 3}
+        volume: 0.5
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Vocal3
+        clip: {fileID: 8300000, guid: 57673c0175006b24f8aa40d73fc4adcb, type: 3}
+        volume: 0.5
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Vocal4
+        clip: {fileID: 8300000, guid: 31170925e62df8748a98d57eac0ffd7d, type: 3}
+        volume: 0.5
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: 2987559781006682313, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+    - name: FootstepsSnow
+      sounds:
+      - name: Snow1
+        clip: {fileID: 8300000, guid: 24b203011efe14949a61cc907fbb7b29, type: 3}
+        volume: 0.2
+        pitch: 1.6
+        isLoop: 0
+        hasCooldown: 0
+      - name: Snow2
+        clip: {fileID: 8300000, guid: 813bfbe977727d548be32d2de2b5994f, type: 3}
+        volume: 0.2
+        pitch: 1.6
+        isLoop: 0
+        hasCooldown: 0
+      - name: Snow4
+        clip: {fileID: 8300000, guid: afa5a75b7c468e843a11e13f69fbfe77, type: 3}
+        volume: 0.2
+        pitch: 1.6
+        isLoop: 0
+        hasCooldown: 0
+      - name: Snow7
+        clip: {fileID: 8300000, guid: efa7f7cdca81c454a884a4c9f5d042be, type: 3}
+        volume: 0.2
+        pitch: 1.6
+        isLoop: 0
+        hasCooldown: 0
+      - name: Snow8
+        clip: {fileID: 8300000, guid: 2e54fa04b4a31b640be8d33832d961ae, type: 3}
+        volume: 0.2
+        pitch: 1.6
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: 2987559781006682313, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+    - name: FootstepsMetal
+      sounds:
+      - name: Metal1
+        clip: {fileID: 8300000, guid: 3b62866cb74e91049b5282291f8e9830, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Metal2
+        clip: {fileID: 8300000, guid: 512324f0b563c764aab3a6e78334d1ee, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Metal3
+        clip: {fileID: 8300000, guid: ebe4b11eba57f4143a4ed719246c4f66, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Metal3
+        clip: {fileID: 8300000, guid: 4ff39ce669852ca4aa9299d539dd4461, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Metal5
+        clip: {fileID: 8300000, guid: cab3382ac8ba1844eb04449ba1391713, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Metal6
+        clip: {fileID: 8300000, guid: dcc12a4d9ce561d48b929bbd28053c17, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Metal7
+        clip: {fileID: 8300000, guid: 73fb69e387a8b5148b2ae71be46c0cb3, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: Metal8
+        clip: {fileID: 8300000, guid: b85501bbe64b69a40a94e655aeef9fe1, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 1
+      mixer: {fileID: 2987559781006682313, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+  - name: Bomb
+    soundCategories:
+    - name: Explotion
+      sounds:
+      - name: Explotion1
+        clip: {fileID: 8300000, guid: 163c4e0e53c0c9948b6e278f26d11daf, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: -5530534873007529486, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+  - name: Game
+    soundCategories:
+    - name: Match
+      sounds:
+      - name: Countdown
+        clip: {fileID: 8300000, guid: 8450095b129618c45852b1c50cb62a7d, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: -764932251566716333, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+    - name: Music
+      sounds:
+      - name: Lobby
+        clip: {fileID: 8300000, guid: 017f1b0409fad8f40828678c672f2b54, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 1
+        hasCooldown: 0
+      - name: Game
+        clip: {fileID: 8300000, guid: e471fef291966a24daa9df236bc8d055, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 1
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: -7430178470325883258, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+  - name: PickUp
+    soundCategories:
+    - name: Main
+      sounds:
+      - name: Pick
+        clip: {fileID: 8300000, guid: cd9d5696e8330564f9bac2e7d2999805, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: -5530534873007529486, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+  - name: LobbyUI
+    soundCategories:
+    - name: ReadyButton
+      sounds:
+      - name: ReadyButtonSound1
+        clip: {fileID: 8300000, guid: 04bd8928b7a501b4cba216c863f5baa1, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      - name: ReadyButtonSound2
+        clip: {fileID: 8300000, guid: 34908cfe6a1391649916c8ca261cb535, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: -5530534873007529486, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+  - name: UI
+    soundCategories:
+    - name: Buttons
+      sounds:
+      - name: ScrollButton
+        clip: {fileID: 8300000, guid: bd612fb838596b9468e9216d5e3ddd14, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: -5530534873007529486, guid: 828e48d899b618f40b3145325c7981a1, type: 2}
+  - name: Countdown
+    soundCategories:
+    - name: Countdown
+      sounds:
+      - name: Countdown
+        clip: {fileID: 8300000, guid: 8450095b129618c45852b1c50cb62a7d, type: 3}
+        volume: 0.2
+        pitch: 1
+        isLoop: 0
+        hasCooldown: 0
+      hasCooldown: 0
+      mixer: {fileID: -5530534873007529486, guid: 828e48d899b618f40b3145325c7981a1, type: 2}

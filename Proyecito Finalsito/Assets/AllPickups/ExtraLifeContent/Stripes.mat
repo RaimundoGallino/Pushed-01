@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stripes
+  m_Shader: {fileID: -6465566751694194690, guid: 99055a73884386b478d203dc0dd086d4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_24a3063e6ad64308a48d6870d8e3e786: -10.9
+    - Vector1_672522e35d12458597db80a88c1b82ff: 0.26
+    - Vector1_680708d2bc6043f68b6300c830cfeed7: 9.46
+    - Vector1_7916261acb8a419498048445308f5eab: -217.04
+    - Vector1_a8125cfa7da14f2abdcd8966514cd6a5: 44.4
+    m_Colors:
+    - Color_3025c4eeb1524e8285396bf8ae29dddd: {r: 2.2349389, g: 0.011887974, b: 0.011887974, a: 0}
+    - Color_a7872d5991a04ddca5a45b571e6e333b: {r: 0.9433962, g: 0, b: 0.1588142, a: 0}
+    - Color_af671d47d4514b31b837e4b00fd46abf: {r: 0, g: 5.278032, b: 4.491502, a: 0}
+    - Color_c141023347c7458da04e7509327d1d68: {r: 218.49115, g: 0, b: 172.17104, a: 0}
+    - Color_c7ffbe152945425b9a9556712dee6d0a: {r: 1, g: 0.6273585, b: 0.6273585, a: 0}
+    - Color_dc03beab0090413c9179e1e21b9b12d8: {r: 0, g: 0.03637799, b: 0.6698113, a: 0}
+    - Color_eeadab96567449139f61bc6cdc05f3d1: {r: 1.2231565, g: 0, b: 94.183044, a: 0}
+    - Color_fee3707c3e814428ada839f946603710: {r: 4.8298182, g: 0, b: 5.063991, a: 0}
+    - Vector4_5b7f840cab6d488da797919c7b36dec8: {r: 50, g: 50, b: 50, a: 15.1}
+    - Vector4_dab240056a684ce68ee090789b87445e: {r: 0.1, g: 0.31, b: 0.23, a: 0}
+    - Vector4_fb4dcf9e83a849b583ce75bb7160d5ac: {r: 7.9, g: 2.4, b: 3.34, a: 4.24}
+  m_BuildTextureStacks: []

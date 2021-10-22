@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DissolveRobotMat
+  m_Shader: {fileID: -6465566751694194690, guid: 4fbc1fbcdfe7ac648afeed4dbb5fbc6b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_0fca9cc481894a9eb9b0629a7ba8ea2f:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9cf0cd166991411fa676f2dec6a3b13e:
+        m_Texture: {fileID: 2800000, guid: f33850ef5e1b70741a6f8d7198f7b2dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_ec831546a31c4052abb90e548cc8a580:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_16c6821a68e64940b1220a48e6503fb8: 0.214
+    - Vector1_931f5d55990445768210863e0e604b40: 0.025
+    - Vector1_e0680947f2594c2abb799a819e67a847: 3.39
+    m_Colors:
+    - Color_d310f1d05ff748a3b788d363a4f4beb6: {r: 0, g: 0.6522601, b: 0.9339623, a: 0}
+  m_BuildTextureStacks: []

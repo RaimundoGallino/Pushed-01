@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: YellowStripesMat
+  m_Shader: {fileID: -6465566751694194690, guid: 85e152a73d0bc4840a49c92292551023, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_089c2309584b46c59ae7977bc02e26e8: 1.83
+    - Vector1_5bc1493655a04b63940d9d2ac929a19d: 0.11
+    - Vector1_f0253da4dccd46ff95dce8cc544d819d: 2.38
+    - Vector1_fbdb9d8aca3645cdae30d9f5f614e01b: -0.7
+    m_Colors:
+    - Color_71c681f0486b4ef58c6d5268e2ee3d0d: {r: 0, g: 0, b: 0, a: 0}
+    - Color_9de97c0db5e84df08134131a643dd571: {r: 0.6698113, g: 0.46857056, b: 0.015797434, a: 0}
+  m_BuildTextureStacks: []
