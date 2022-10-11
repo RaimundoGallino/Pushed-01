@@ -70,5 +70,5 @@ Diego Varela - [Github](https://github.com/dieg0varela).
 
 Hernan Montenegro  - [Github](https://github.com/HernanMontenegro).
 
-Rodolfo Delgado  - [Github](https://github.com/Ro8s).
+Rodolfo Delgado  - [Github](https://github.com/RodolfoDelgadoDev).
 
